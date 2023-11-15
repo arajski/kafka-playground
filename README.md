@@ -39,5 +39,7 @@ curl -X POST -H "Content-Type: application/vnd.schemaregistry.v1+json" \
 
 Change import mode of a subject
 ```sh
-curl -X PUT -H "Content-Type: application/vnd.schemaregistry.v1+json" \\n  --data '{"mode":"IMPORT"}' \\n  http://localhost:8081/mode/test\?force\=true
+curl -X PUT -H "Content-Type: application/vnd.schemaregistry.v1+json" \
+  --data '{"mode":"IMPORT"}' \
+  http://localhost:8081/mode/test\?force\=true
 ```
