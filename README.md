@@ -4,22 +4,22 @@ A repository created to quickly test different kafka concepts and see how they a
 ## Getting started
 Spin up containers
 ```sh
-`docker-compose up`
+docker-compose up
 ```
 
 Download dependencies
 ```sh
-`go mod download`
+go mod download
 ```
 
 Run a consumer
 ```sh
-`go run cmd/consumer/consumer.go`
+go run cmd/consumer/consumer.go
 ```
 
 Run a producer 
 ```sh
-`go run cmd/producer/producer.go`
+go run cmd/producer/producer.go
 ```
 
 ## Useful commands
